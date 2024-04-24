@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(177, 176, 176);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+  
+  a {
+    font-size: 30px;
+    margin-top: 2vw;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  a:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+button{
+    width: 200px;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
